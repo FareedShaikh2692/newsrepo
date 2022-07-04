@@ -2,7 +2,7 @@
   "name": "news",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FareedShaikh2692.github.io",
+  "homepage": "https://FareedShaikh2692.github.io/newsrepo",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
