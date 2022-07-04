@@ -13,7 +13,7 @@ const Footer = () => {
           <Grid item xs={8} />
           <Grid item xs={4}>
             <div className="footertitle">
-              <Typography style={{ paddingBottom: 15 }}>Recommended</Typography>
+              <Typography style={{ paddingBottom: 15 }}>Recent news</Typography>
             </div>
             <Grid
               container
