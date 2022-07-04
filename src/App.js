@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home/home";
 import ScrollArrow from "./scrollarrow";
+import Footer from "./footer";
 function App() {
   return (
     <div className="App">
@@ -28,6 +29,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <Footer />
       <ScrollArrow />
     </div>
   );

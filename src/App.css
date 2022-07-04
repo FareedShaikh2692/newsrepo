@@ -38,7 +38,7 @@
   box-shadow: inset 0 0 0 1px hsl(0deg 0% 100% / 10%),
     0 2px 6px rgb(0 0 0 / 10%);
   text-align: center;
-  opacity: 0.8;
+  opacity: 0.5;
   transition: opacity 0.2s ease;
   position: fixed;
   right: 10px;
@@ -420,7 +420,7 @@
 .loadmorecontainer img {
   width: -webkit-fill-available;
 }
-.loadmorecontainer .title {
+.title {
   color: #212121;
   font-size: 16px;
   font-weight: 700;
@@ -431,7 +431,7 @@
   border-bottom: 2px solid #eee;
   text-shadow: 0 0 black;
 }
-.loadmorecontainer .title ::after {
+.title ::after {
   content: "";
   width: 30px;
   height: 2px;
@@ -565,7 +565,7 @@
   width: -webkit-fill-available;
   height: -webkit-fill-available;
 }
-.businessimgcontainer .businessinnercontainer {
+.businessinnercontainer {
   padding: 20px 15px 10px;
   position: absolute;
   /* width: 100%; */
@@ -589,4 +589,61 @@
   text-shadow: 0 0 #fff;
   display: flex;
   align-items: center;
+}
+.footerdiv {
+  background: #212121;
+  color: #a8a8aa;
+
+  padding: 60px 40px;
+  padding-bottom: 40px;
+}
+.footertitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  line-height: normal;
+  /* float: left; */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  /* text-shadow: 0 0 black; */
+}
+.footertitle ::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #f70d28;
+  display: block;
+  position: relative;
+  bottom: -17px;
+}
+.footerloadmorecontainer img {
+  width: -webkit-fill-available;
+}
+.footerloadmorecontainer .text {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin: 0 0 5px;
+  letter-spacing: normal;
+  /* text-shadow: 0 1px 0 black; */
+  transition: color 0.2s;
+}
+.footerloadmorecontainer .text:hover {
+  color: #fff;
+  cursor: pointer;
+  text-shadow: 0 0 #fff;
+  transition: color 0.2s;
+}
+.footerloadmorecontainer .bottomtext {
+  cursor: pointer;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin: 0 0 5px;
+  color: #a0a0a0;
+  letter-spacing: normal;
+  text-shadow: 0 0 #a0a0a0;
+  text-transform: uppercase;
 }

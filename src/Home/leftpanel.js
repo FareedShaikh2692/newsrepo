@@ -685,6 +685,1046 @@ const Leftpanel = () => {
           </Grid>
         </div>
       </div>
+      <div className="title">
+        <Typography style={{ paddingBottom: 15 }}>Worldwide</Typography>
+      </div>
+      <div>
+        <Grid container spacing={4}>
+          <Grid item xs={6}>
+            <div className="featuredstorynews">
+              <img src={Loadmore} alt="recommendedimage" height={180} />
+              <Typography style={{ bottom: 10, top: "auto", left: 15 }}>
+                Latest news
+              </Typography>
+            </div>
+            <Typography
+              className="featuredheadertext"
+              style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+            >
+              Another tiger attack in Munnar's plantation area: Cow died
+            </Typography>
+            <Typography className="featuredmiddletext">
+              by&nbsp;
+              <span
+                style={{
+                  color: "#f70d28",
+                  fontWeight: 900,
+                  textShadow: "0 0 #f70d28",
+                }}
+              >
+                kolumban&nbsp;online
+              </span>
+              &nbsp;
+              <AiOutlineClockCircle
+                style={{
+                  color: "#2e9fff",
+                  textShadow: "0 0 #2e9fff",
+                }}
+              />
+              &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+              <FaRegComment
+                style={{
+                  color: "#2e9fff",
+                  textShadow: "0 0 #2e9fff",
+                }}
+              />
+              &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+            </Typography>
+            <Typography className="featuredparatext">
+              Munnar: A cow died in another tiger attack in the plantation area.
+              A cow belonging to Shakti, a resident of Devikulam Estate Factory
+              Division, was killed. As tigers used to kill livestock ...
+            </Typography>
+            <Button className="featuredbutton">Read more</Button>
+          </Grid>
+          <Grid item xs={6} className="loadmorecontainer">
+            {/* <Grid item xs={6}> */}
+            <Grid container spacing={2} style={{ marginBottom: 25 }}>
+              <Grid item xs={5}>
+                <img src={Loadmore3} alt="recommendedimage" />
+              </Grid>
+              <Grid item xs className="text">
+                <Typography style={{ marginBottom: 5 }}>
+                  Fire breaks out from gas cylinder in Marayur: Family of three
+                  miraculously escapes
+                </Typography>
+                <div className="bottomtext">
+                  <AiOutlineClockCircle
+                    style={{
+                      color: "#2e9fff",
+                      textShadow: "0 0 #2e9fff",
+                      fontWeight: "bolder",
+                    }}
+                  />
+                  <Typography style={{ paddingLeft: 5 }}>
+                    november 19, 2021
+                  </Typography>
+                </div>
+              </Grid>
+            </Grid>
+            <Grid container spacing={2} style={{ marginBottom: 25 }}>
+              <Grid item xs={5}>
+                <img src={Loadmore3} alt="recommendedimage" />
+              </Grid>
+              <Grid item xs className="text">
+                <Typography style={{ marginBottom: 5 }}>
+                  Fire breaks out from gas cylinder in Marayur: Family of three
+                  miraculously escapes
+                </Typography>
+                <div className="bottomtext">
+                  <AiOutlineClockCircle
+                    style={{
+                      color: "#2e9fff",
+                      textShadow: "0 0 #2e9fff",
+                      fontWeight: "bolder",
+                    }}
+                  />
+                  <Typography style={{ paddingLeft: 5 }}>
+                    november 19, 2021
+                  </Typography>
+                </div>
+              </Grid>
+            </Grid>
+            <Grid container spacing={2} style={{ marginBottom: 25 }}>
+              <Grid item xs={5}>
+                <img src={Loadmore3} alt="recommendedimage" />
+              </Grid>
+              <Grid item xs className="text">
+                <Typography style={{ marginBottom: 5 }}>
+                  Fire breaks out from gas cylinder in Marayur: Family of three
+                  miraculously escapes
+                </Typography>
+                <div className="bottomtext">
+                  <AiOutlineClockCircle
+                    style={{
+                      color: "#2e9fff",
+                      textShadow: "0 0 #2e9fff",
+                      fontWeight: "bolder",
+                    }}
+                  />
+                  <Typography style={{ paddingLeft: 5 }}>
+                    november 19, 2021
+                  </Typography>
+                </div>
+              </Grid>
+            </Grid>
+            <Grid container spacing={2} style={{ marginBottom: 25 }}>
+              <Grid item xs={5}>
+                <img src={Loadmore3} alt="recommendedimage" />
+              </Grid>
+              <Grid item xs className="text">
+                <Typography style={{ marginBottom: 5 }}>
+                  Fire breaks out from gas cylinder in Marayur: Family of three
+                  miraculously escapes
+                </Typography>
+                <div className="bottomtext">
+                  <AiOutlineClockCircle
+                    style={{
+                      color: "#2e9fff",
+                      textShadow: "0 0 #2e9fff",
+                      fontWeight: "bolder",
+                    }}
+                  />
+                  <Typography style={{ paddingLeft: 5 }}>
+                    november 19, 2021
+                  </Typography>
+                </div>
+              </Grid>
+            </Grid>
+            {/* </Grid> */}
+          </Grid>
+        </Grid>
+        <div className="loadmorebtncontainer" style={{ marginBottom: 20 }}>
+          <hr />
+          <button
+            className="loadmorebtn"
+            // onClick={() => {
+            //   setloader(true);
+            //   setTimeout(() => {
+            //     setloadmorevalue(loadmorevalue + 3);
+            //     setloader(false);
+            //   }, 1000);
+            // }}
+            style={{
+              minWidth: "auto",
+              margin: "0",
+              marginLeft: 20,
+              marginRight: 10,
+              padding: "0 10px",
+            }}
+          >
+            <AiOutlineLeft />
+          </button>
+          <button
+            className="loadmorebtn"
+            // onClick={() => {
+            //   setloader(true);
+            //   setTimeout(() => {
+            //     setloadmorevalue(loadmorevalue + 3);
+            //     setloader(false);
+            //   }, 1000);
+            // }}
+            style={{
+              minWidth: "auto",
+              margin: "0",
+              marginRight: 20,
+              padding: "0 10px",
+            }}
+          >
+            <AiOutlineRight />
+          </button>
+          <hr />
+        </div>
+      </div>
+      <div className="mainbusinesssection">
+        <div className="businesssection">
+          <div>
+            <Typography>Techno</Typography>
+          </div>
+          <div className="seconddiv">
+            <Typography
+              style={{
+                color: tabval === "all" && "black",
+                fontWeight: tabval === "all" && 900,
+              }}
+              onClick={() => settabval("all")}
+            >
+              All
+            </Typography>
+            <Typography
+              style={{
+                color: tabval === "latestnews" && "black",
+                fontWeight: tabval === "latestnews" && 900,
+              }}
+              onClick={() => settabval("latestnews")}
+            >
+              The poem
+            </Typography>
+            <Typography
+              style={{
+                color: tabval === "politics" && "black",
+                fontWeight: tabval === "politics" && 900,
+              }}
+              onClick={() => settabval("politics")}
+            >
+              gadget
+            </Typography>
+            <Typography
+              style={{
+                color: tabval === "science" && "black",
+                fontWeight: tabval === "science" && 900,
+              }}
+              onClick={() => settabval("science")}
+            >
+              science
+            </Typography>
+            <Typography
+              style={{
+                color: tabval === "world" && "black",
+                fontWeight: tabval === "world" && 900,
+              }}
+              onClick={() => settabval("world")}
+            >
+              story
+            </Typography>
+            <Typography
+              style={{
+                color: tabval === "startup" && "black",
+                fontWeight: tabval === "startup" && 900,
+              }}
+              onClick={() => settabval("startup")}
+            >
+              startup
+            </Typography>
+          </div>
+        </div>
+      </div>
+      <Grid container spacing={3} style={{ marginBottom: 30 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore2} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+          </div>
+        </Grid>
+        <Grid item xs={6}>
+          <Typography
+            className="featuredheadertext"
+            style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+          >
+            Another tiger attack in Munnar's plantation area: Cow died
+          </Typography>
+          <Typography className="featuredmiddletext">
+            by&nbsp;
+            <span
+              style={{
+                color: "#f70d28",
+                fontWeight: 900,
+                textShadow: "0 0 #f70d28",
+              }}
+            >
+              kolumban&nbsp;online
+            </span>
+            &nbsp;
+            <AiOutlineClockCircle
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+            <FaRegComment
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+          </Typography>
+          <Typography className="featuredparatext">
+            Munnar: A cow died in another tiger attack in the plantation area. A
+            cow belonging to Shakti, a resident of Devikulam Estate Factory
+            Division, was killed. As tigers used to kill livestock ...
+          </Typography>
+          <Button className="featuredbutton">Read more</Button>
+        </Grid>
+      </Grid>
+      <Grid container spacing={3} style={{ marginBottom: 30 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore2} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+          </div>
+        </Grid>
+        <Grid item xs={6}>
+          <Typography
+            className="featuredheadertext"
+            style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+          >
+            Another tiger attack in Munnar's plantation area: Cow died
+          </Typography>
+          <Typography className="featuredmiddletext">
+            by&nbsp;
+            <span
+              style={{
+                color: "#f70d28",
+                fontWeight: 900,
+                textShadow: "0 0 #f70d28",
+              }}
+            >
+              kolumban&nbsp;online
+            </span>
+            &nbsp;
+            <AiOutlineClockCircle
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+            <FaRegComment
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+          </Typography>
+          <Typography className="featuredparatext">
+            Munnar: A cow died in another tiger attack in the plantation area. A
+            cow belonging to Shakti, a resident of Devikulam Estate Factory
+            Division, was killed. As tigers used to kill livestock ...
+          </Typography>
+          <Button className="featuredbutton">Read more</Button>
+        </Grid>
+      </Grid>
+      <Grid container spacing={3} style={{ marginBottom: 30 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore2} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+          </div>
+        </Grid>
+        <Grid item xs={6}>
+          <Typography
+            className="featuredheadertext"
+            style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+          >
+            Another tiger attack in Munnar's plantation area: Cow died
+          </Typography>
+          <Typography className="featuredmiddletext">
+            by&nbsp;
+            <span
+              style={{
+                color: "#f70d28",
+                fontWeight: 900,
+                textShadow: "0 0 #f70d28",
+              }}
+            >
+              kolumban&nbsp;online
+            </span>
+            &nbsp;
+            <AiOutlineClockCircle
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+            <FaRegComment
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+          </Typography>
+          <Typography className="featuredparatext">
+            Munnar: A cow died in another tiger attack in the plantation area. A
+            cow belonging to Shakti, a resident of Devikulam Estate Factory
+            Division, was killed. As tigers used to kill livestock ...
+          </Typography>
+          <Button className="featuredbutton">Read more</Button>
+        </Grid>
+      </Grid>
+      <div className="title">
+        <Typography style={{ paddingBottom: 15 }}>Politics</Typography>
+      </div>
+      <Grid container spacing={3} style={{ marginBottom: 20 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>IDUKKI</Typography>
+            <div
+              className="businessinnercontainer"
+              style={{
+                width: "-webkit-fill-available",
+                background:
+                  "linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.1) 50%)",
+              }}
+            >
+              <Typography
+                className="firsttext"
+                style={{
+                  background: "transparent",
+                  position: "unset",
+                }}
+              >
+                Asylum case: Sister Sefi and Fr. Thomas Kottur was also released
+              </Typography>
+              <Typography
+                className="secondtext"
+                style={{
+                  position: "unset",
+                  background: "transparent",
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                <AiOutlineClockCircle />
+                &nbsp; June 27, 2022
+              </Typography>
+            </div>
+          </div>
+        </Grid>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore3} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>latest news</Typography>
+            <div
+              className="businessinnercontainer"
+              style={{
+                width: "-webkit-fill-available",
+                background:
+                  "linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.1) 50%)",
+              }}
+            >
+              <Typography
+                className="firsttext"
+                style={{
+                  background: "transparent",
+                  position: "unset",
+                }}
+              >
+                Asylum case: Sister Sefi and Fr. Thomas Kottur was also released
+              </Typography>
+              <Typography
+                className="secondtext"
+                style={{
+                  position: "unset",
+                  background: "transparent",
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                <AiOutlineClockCircle />
+                &nbsp; June 27, 2022
+              </Typography>
+            </div>
+          </div>
+        </Grid>
+      </Grid>
+      <Grid container spacing={3}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore4} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>latest news</Typography>
+            <div
+              className="businessinnercontainer"
+              style={{
+                width: "-webkit-fill-available",
+                background:
+                  "linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.1) 50%)",
+              }}
+            >
+              <Typography
+                className="firsttext"
+                style={{
+                  background: "transparent",
+                  position: "unset",
+                }}
+              >
+                Asylum case: Sister Sefi and Fr. Thomas Kottur was also released
+              </Typography>
+              <Typography
+                className="secondtext"
+                style={{
+                  position: "unset",
+                  background: "transparent",
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                <AiOutlineClockCircle />
+                &nbsp; June 27, 2022
+              </Typography>
+            </div>
+          </div>
+        </Grid>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore1} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>IDUKKI</Typography>
+            <div
+              className="businessinnercontainer"
+              style={{
+                width: "-webkit-fill-available",
+                background:
+                  "linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.1) 50%)",
+              }}
+            >
+              <Typography
+                className="firsttext"
+                style={{
+                  background: "transparent",
+                  position: "unset",
+                }}
+              >
+                Asylum case: Sister Sefi and Fr. Thomas Kottur was also released
+              </Typography>
+              <Typography
+                className="secondtext"
+                style={{
+                  position: "unset",
+                  background: "transparent",
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                <AiOutlineClockCircle />
+                &nbsp; June 27, 2022
+              </Typography>
+            </div>
+          </div>
+        </Grid>
+      </Grid>
+      <div className="title" style={{ marginTop: 30 }}>
+        <Typography style={{ paddingBottom: 15 }}>Lifestyle</Typography>
+      </div>
+      <div>
+        <Grid container spacing={4} style={{ marginBottom: 30 }}>
+          <Grid item xs={6}>
+            <div className="featuredstorynews">
+              <img src={Loadmore5} alt="recommendedimage" height={180} />
+              <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+            </div>
+          </Grid>
+          <Grid item xs={6} style={{ marginBottom: 20 }}>
+            <Typography
+              className="featuredheadertext"
+              style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+            >
+              Another tiger attack in Munnar's plantation area: Cow died
+            </Typography>
+            <Typography className="featuredmiddletext">
+              by&nbsp;
+              <span
+                style={{
+                  color: "#f70d28",
+                  fontWeight: 900,
+                  textShadow: "0 0 #f70d28",
+                }}
+              >
+                kolumban&nbsp;online
+              </span>
+              &nbsp;
+              <AiOutlineClockCircle
+                style={{
+                  color: "#2e9fff",
+                  textShadow: "0 0 #2e9fff",
+                }}
+              />
+              &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+              <FaRegComment
+                style={{
+                  color: "#2e9fff",
+                  textShadow: "0 0 #2e9fff",
+                }}
+              />
+              &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+            </Typography>
+            <Typography className="featuredparatext">
+              Munnar: A cow died in another tiger attack in the plantation area.
+              A cow belonging to Shakti, a resident of Devikulam Estate Factory
+              Division, was killed. As tigers used to kill livestock ...
+            </Typography>
+            <Button className="featuredbutton">Read more</Button>
+          </Grid>
+        </Grid>
+        <Grid container spacing={3} style={{ marginBottom: 20 }}>
+          <Grid item xs={6} className="loadmorecontainer">
+            {/* <Grid item xs={6}> */}
+            <Grid container spacing={2} style={{ marginBottom: 25 }}>
+              <Grid item xs={5}>
+                <img src={Loadmore3} alt="recommendedimage" />
+              </Grid>
+              <Grid item xs className="text">
+                <Typography style={{ marginBottom: 5 }}>
+                  Fire breaks out from gas cylinder in Marayur: Family of three
+                  miraculously escapes
+                </Typography>
+                <div className="bottomtext">
+                  <AiOutlineClockCircle
+                    style={{
+                      color: "#2e9fff",
+                      textShadow: "0 0 #2e9fff",
+                      fontWeight: "bolder",
+                    }}
+                  />
+                  <Typography style={{ paddingLeft: 5 }}>
+                    november 19, 2021
+                  </Typography>
+                </div>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item xs={6} className="loadmorecontainer">
+            {/* <Grid item xs={6}> */}
+            <Grid container spacing={2} style={{ marginBottom: 25 }}>
+              <Grid item xs={5}>
+                <img src={Loadmore3} alt="recommendedimage" />
+              </Grid>
+              <Grid item xs className="text">
+                <Typography style={{ marginBottom: 5 }}>
+                  Fire breaks out from gas cylinder in Marayur: Family of three
+                  miraculously escapes
+                </Typography>
+                <div className="bottomtext">
+                  <AiOutlineClockCircle
+                    style={{
+                      color: "#2e9fff",
+                      textShadow: "0 0 #2e9fff",
+                      fontWeight: "bolder",
+                    }}
+                  />
+                  <Typography style={{ paddingLeft: 5 }}>
+                    november 19, 2021
+                  </Typography>
+                </div>
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid container spacing={3}>
+          <Grid item xs={6} className="loadmorecontainer">
+            {/* <Grid item xs={6}> */}
+            <Grid container spacing={2} style={{ marginBottom: 25 }}>
+              <Grid item xs={5}>
+                <img src={Loadmore3} alt="recommendedimage" />
+              </Grid>
+              <Grid item xs className="text">
+                <Typography style={{ marginBottom: 5 }}>
+                  Fire breaks out from gas cylinder in Marayur: Family of three
+                  miraculously escapes
+                </Typography>
+                <div className="bottomtext">
+                  <AiOutlineClockCircle
+                    style={{
+                      color: "#2e9fff",
+                      textShadow: "0 0 #2e9fff",
+                      fontWeight: "bolder",
+                    }}
+                  />
+                  <Typography style={{ paddingLeft: 5 }}>
+                    november 19, 2021
+                  </Typography>
+                </div>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item xs={6} className="loadmorecontainer">
+            {/* <Grid item xs={6}> */}
+            <Grid container spacing={2} style={{ marginBottom: 25 }}>
+              <Grid item xs={5}>
+                <img src={Loadmore3} alt="recommendedimage" />
+              </Grid>
+              <Grid item xs className="text">
+                <Typography style={{ marginBottom: 5 }}>
+                  Fire breaks out from gas cylinder in Marayur: Family of three
+                  miraculously escapes
+                </Typography>
+                <div className="bottomtext">
+                  <AiOutlineClockCircle
+                    style={{
+                      color: "#2e9fff",
+                      textShadow: "0 0 #2e9fff",
+                      fontWeight: "bolder",
+                    }}
+                  />
+                  <Typography style={{ paddingLeft: 5 }}>
+                    november 19, 2021
+                  </Typography>
+                </div>
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+        <div className="loadmorebtncontainer" style={{ marginBottom: 20 }}>
+          <hr />
+          <button
+            className="loadmorebtn"
+            // onClick={() => {
+            //   setloader(true);
+            //   setTimeout(() => {
+            //     setloadmorevalue(loadmorevalue + 3);
+            //     setloader(false);
+            //   }, 1000);
+            // }}
+          >
+            Load more
+          </button>
+          <hr />
+        </div>
+      </div>
+      <div style={{ height: 200, marginBottom: 30 }}>
+        <div
+          className="addiv"
+          style={{
+            position: "absolute",
+            width: "90%",
+            left: "5%",
+            background: "#f5f5f5",
+            marginBottom: 30,
+            height: 200,
+          }}
+        />
+      </div>
+      <div className="title">
+        <Typography style={{ paddingBottom: 15 }}>Latest Post</Typography>
+      </div>{" "}
+      <Grid container spacing={4} style={{ marginBottom: 30 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore2} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+          </div>
+        </Grid>
+        <Grid item xs={6} style={{ marginBottom: 20 }}>
+          <Typography
+            className="featuredheadertext"
+            style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+          >
+            Another tiger attack in Munnar's plantation area: Cow died
+          </Typography>
+          <Typography className="featuredmiddletext">
+            by&nbsp;
+            <span
+              style={{
+                color: "#f70d28",
+                fontWeight: 900,
+                textShadow: "0 0 #f70d28",
+              }}
+            >
+              kolumban&nbsp;online
+            </span>
+            &nbsp;
+            <AiOutlineClockCircle
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+            <FaRegComment
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+          </Typography>
+          <Typography className="featuredparatext">
+            Munnar: A cow died in another tiger attack in the plantation area. A
+            cow belonging to Shakti, a resident of Devikulam Estate Factory
+            Division, was killed. As tigers used to kill livestock ...
+          </Typography>
+          <Button className="featuredbutton">Read more</Button>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4} style={{ marginBottom: 30 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore2} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+          </div>
+        </Grid>
+        <Grid item xs={6} style={{ marginBottom: 20 }}>
+          <Typography
+            className="featuredheadertext"
+            style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+          >
+            Another tiger attack in Munnar's plantation area: Cow died
+          </Typography>
+          <Typography className="featuredmiddletext">
+            by&nbsp;
+            <span
+              style={{
+                color: "#f70d28",
+                fontWeight: 900,
+                textShadow: "0 0 #f70d28",
+              }}
+            >
+              kolumban&nbsp;online
+            </span>
+            &nbsp;
+            <AiOutlineClockCircle
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+            <FaRegComment
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+          </Typography>
+          <Typography className="featuredparatext">
+            Munnar: A cow died in another tiger attack in the plantation area. A
+            cow belonging to Shakti, a resident of Devikulam Estate Factory
+            Division, was killed. As tigers used to kill livestock ...
+          </Typography>
+          <Button className="featuredbutton">Read more</Button>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4} style={{ marginBottom: 30 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore2} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+          </div>
+        </Grid>
+        <Grid item xs={6} style={{ marginBottom: 20 }}>
+          <Typography
+            className="featuredheadertext"
+            style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+          >
+            Another tiger attack in Munnar's plantation area: Cow died
+          </Typography>
+          <Typography className="featuredmiddletext">
+            by&nbsp;
+            <span
+              style={{
+                color: "#f70d28",
+                fontWeight: 900,
+                textShadow: "0 0 #f70d28",
+              }}
+            >
+              kolumban&nbsp;online
+            </span>
+            &nbsp;
+            <AiOutlineClockCircle
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+            <FaRegComment
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+          </Typography>
+          <Typography className="featuredparatext">
+            Munnar: A cow died in another tiger attack in the plantation area. A
+            cow belonging to Shakti, a resident of Devikulam Estate Factory
+            Division, was killed. As tigers used to kill livestock ...
+          </Typography>
+          <Button className="featuredbutton">Read more</Button>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4} style={{ marginBottom: 30 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore2} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+          </div>
+        </Grid>
+        <Grid item xs={6} style={{ marginBottom: 20 }}>
+          <Typography
+            className="featuredheadertext"
+            style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+          >
+            Another tiger attack in Munnar's plantation area: Cow died
+          </Typography>
+          <Typography className="featuredmiddletext">
+            by&nbsp;
+            <span
+              style={{
+                color: "#f70d28",
+                fontWeight: 900,
+                textShadow: "0 0 #f70d28",
+              }}
+            >
+              kolumban&nbsp;online
+            </span>
+            &nbsp;
+            <AiOutlineClockCircle
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+            <FaRegComment
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+          </Typography>
+          <Typography className="featuredparatext">
+            Munnar: A cow died in another tiger attack in the plantation area. A
+            cow belonging to Shakti, a resident of Devikulam Estate Factory
+            Division, was killed. As tigers used to kill livestock ...
+          </Typography>
+          <Button className="featuredbutton">Read more</Button>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4} style={{ marginBottom: 30 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore2} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+          </div>
+        </Grid>
+        <Grid item xs={6} style={{ marginBottom: 20 }}>
+          <Typography
+            className="featuredheadertext"
+            style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+          >
+            Another tiger attack in Munnar's plantation area: Cow died
+          </Typography>
+          <Typography className="featuredmiddletext">
+            by&nbsp;
+            <span
+              style={{
+                color: "#f70d28",
+                fontWeight: 900,
+                textShadow: "0 0 #f70d28",
+              }}
+            >
+              kolumban&nbsp;online
+            </span>
+            &nbsp;
+            <AiOutlineClockCircle
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+            <FaRegComment
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+          </Typography>
+          <Typography className="featuredparatext">
+            Munnar: A cow died in another tiger attack in the plantation area. A
+            cow belonging to Shakti, a resident of Devikulam Estate Factory
+            Division, was killed. As tigers used to kill livestock ...
+          </Typography>
+          <Button className="featuredbutton">Read more</Button>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4} style={{ marginBottom: 30 }}>
+        <Grid item xs={6}>
+          <div className="featuredstorynews">
+            <img src={Loadmore2} alt="recommendedimage" height={250} />
+            <Typography style={{ top: 10, left: 15 }}>Latest news</Typography>
+          </div>
+        </Grid>
+        <Grid item xs={6} style={{ marginBottom: 20 }}>
+          <Typography
+            className="featuredheadertext"
+            style={{ fontSize: 20, marginTop: 15, marginBottom: 5 }}
+          >
+            Another tiger attack in Munnar's plantation area: Cow died
+          </Typography>
+          <Typography className="featuredmiddletext">
+            by&nbsp;
+            <span
+              style={{
+                color: "#f70d28",
+                fontWeight: 900,
+                textShadow: "0 0 #f70d28",
+              }}
+            >
+              kolumban&nbsp;online
+            </span>
+            &nbsp;
+            <AiOutlineClockCircle
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;june&nbsp;25,&nbsp;2020&nbsp;
+            <FaRegComment
+              style={{
+                color: "#2e9fff",
+                textShadow: "0 0 #2e9fff",
+              }}
+            />
+            &nbsp;<span style={{ fontWeight: 900 }}>0</span>
+          </Typography>
+          <Typography className="featuredparatext">
+            Munnar: A cow died in another tiger attack in the plantation area. A
+            cow belonging to Shakti, a resident of Devikulam Estate Factory
+            Division, was killed. As tigers used to kill livestock ...
+          </Typography>
+          <Button className="featuredbutton">Read more</Button>
+        </Grid>
+      </Grid>
     </>
   );
 };
