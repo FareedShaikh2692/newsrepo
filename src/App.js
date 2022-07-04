@@ -26,6 +26,7 @@ function App() {
             renders the first one that matches the current URL. */}
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/newsrepo" element={<Home />} />
           </Routes>
         </div>
       </Router>
