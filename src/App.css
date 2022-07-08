@@ -647,3 +647,14 @@
   text-shadow: 0 0 #a0a0a0;
   text-transform: uppercase;
 }
+.detailsleftbox {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 30px;
+  margin-left: 4rem;
+}
+.hifindiv::before {
+  content: "\2014";
+  margin-right: 10px;
+}

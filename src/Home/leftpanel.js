@@ -23,13 +23,14 @@ import Loadmore3 from "../assets/images/loadmore3.jpg";
 import Loadmore4 from "../assets/images/loadmore4.jpg";
 import Loadmore5 from "../assets/images/loadmore5.jpg";
 import "../App.css";
-
+import { useNavigate } from "react-router-dom";
 const Leftpanel = () => {
   const [currentslide, setcurrentslide] = useState(0);
   const [currentnewsslide, setcurrentnewsslide] = useState(0);
   const [loadmorevalue, setloadmorevalue] = useState(3);
   const [loader, setloader] = useState(false);
   const [tabval, settabval] = useState("all");
+  const navigate = useNavigate();
   const updatecurrentslide = (index) => {
     if (currentslide !== index) {
       setcurrentslide(index);
@@ -113,19 +114,19 @@ const Leftpanel = () => {
             onChange={updatecurrentslide}
             // animationHandler={"fade"}
           >
-            <div>
+            <div onClick={() => navigate("/details")}>
               <p style={{ margin: 0 }}>
                 Accused escaped after overturning autorickshaw in movie style at
                 Kumali Attapallath 3{" "}
               </p>
             </div>
-            <div>
+            <div onClick={() => navigate("/details")}>
               <p style={{ margin: 0 }}>
                 88 jacks, spans, shutters and patutas were stolen from the
                 church: trio arrested 53 mins{" "}
               </p>
             </div>
-            <div>
+            <div onClick={() => navigate("/details")}>
               <p style={{ margin: 0 }}>
                 Bike riding: Newgen riders sentenced 'community service' 2 hours{" "}
                 <span style={{ color: "#a0a0a0", fontSize: 11 }}>ago</span>
