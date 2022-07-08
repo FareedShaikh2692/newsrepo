@@ -28,6 +28,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/details" element={<Details />} />
+            <Route path="/newsrepo" element={<Home />} />
           </Routes>
         </div>
       </Router>
